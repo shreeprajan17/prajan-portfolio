@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Cloud-First Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="./images/fff.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Interactive Background -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="./images/logo1.png" alt="PRAJAN" class="logo-image">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-greeting">Hi, I'm <span class="gradient-text">Shree Prajan</span></h1>
+                <h2 class="hero-subtitle">Cloud-First Software Engineer</h2>
+                <p class="hero-description">
+                    I build scalable, cloud-native applications with immersive user experiences. 
+                    Passionate about distributed systems, DevOps, and modern web technologies. 
+                    Currently seeking internship opportunities and exciting collaborations to create 
+                    impactful solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="https://github.com/shreeprajan17" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/shree-prajan" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder" id="portrait">
+                    <img src="./images/prajan_img.jpg" alt="Professional Portrait" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; position: relative; z-index: 1;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & <span class="gradient-text">Expertise</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-cloud skill-icon"></i>
+                    <h3>Cloud Computing</h3>
+                    <p>AWS, Azure, GCP, Kubernetes, Docker</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Web Development</h3>
+                    <p>React, Node.js, TypeScript, Next.js</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server skill-icon"></i>
+                    <h3>DevOps</h3>
+                    <p>CI/CD, Terraform, Jenkins, GitHub Actions</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired skill-icon"></i>
+                    <h3>Distributed Systems</h3>
+                    <p>Microservices, Message Queues, APIs</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>Databases</h3>
+                    <p>PostgreSQL, MongoDB, Redis, DynamoDB</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush skill-icon"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Responsive Design, Animations</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Cloud-Native E-Commerce Platform</h3>
+                        <p>Scalable microservices architecture deployed on Kubernetes with automated CI/CD pipelines.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-Time Analytics Dashboard</h3>
+                        <p>Interactive data visualization platform with WebSocket integration for live metrics tracking.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Powered DevOps Assistant</h3>
+                        <p>Intelligent automation tool for infrastructure management and deployment optimization.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Terraform</span>
+                            <span class="tech-tag">OpenAI</span>
+                            <span class="tech-tag">Azure</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Latest <span class="gradient-text">Articles</span></h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-date">Jan 15, 2026</div>
+                    <h3>Building Scalable Microservices with Kubernetes</h3>
+                    <p>A deep dive into designing and deploying cloud-native applications...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-date">Dec 28, 2025</div>
+                    <h3>Modern CI/CD Pipelines: Best Practices</h3>
+                    <p>Exploring automation strategies for efficient software delivery...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-date">Dec 10, 2025</div>
+                    <h3>Creating Immersive UI Experiences with React</h3>
+                    <p>Techniques for building engaging and performant user interfaces...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-send">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:shreeprajan17@gmail.com">shreeprajan17@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/shreeprajan17" target="_blank">github.com/shreeprajan17</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://linkedin.com/in/shree-prajan" target="_blank">linkedin.com/in/shree-prajan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Designed & built by Shree Prajan</p> 
+        <p>© 2026 All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
